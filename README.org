@@ -9,6 +9,16 @@ Tarea 5 de Astrofísica Estelar: Atmósferas
 + [2018-09-08 Sat 00:27] Finished the Voigt function
   + Tried 4 methods
   + Fadeeva is best (~scipy.special.wofz~)
++ [2018-09-08 Sat 20:42] Integrate to find EW
 
 *** Still to do
-+ [ ] Integrate to find EW
++ Export notebook to HTML and PDF
+
+
+** Export of notebook
+#+BEGIN_SRC sh 
+jupyter nbconvert *.ipynb
+jupyter nbconvert --to pdf *.ipynb
+#+END_SRC
+
+#+RESULTS:
